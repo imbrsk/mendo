@@ -1,0 +1,31 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "boris",
+  "main": "dist/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "ts-node test/test.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": "https://github.com/VlatkoStojkoski/mendo-private-api",
+  "homepage": "https://github.com/VlatkoStojkoski/mendo-private-api",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.5",
+    "dotenv": "^8.2.0",
+    "form-data": "^3.0.0",
+    "package": "^1.0.1",
+    "querystring": "^0.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "typedoc": "^0.25.3"
+  }
+}
